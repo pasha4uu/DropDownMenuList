@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         tableV.dataSource = self
         
         tableV.register(dropDownCell.self, forCellReuseIdentifier: "dropdown")
-        
+        print("aaaaa")
         // Do any additional setup after loading the view.
     }
     
